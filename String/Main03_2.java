@@ -2,7 +2,7 @@ package String;
 
 import java.util.Scanner;
 
-public class Split {
+public class Main03_2 {
 	public static String solution(String str){
         String answer = "";
 

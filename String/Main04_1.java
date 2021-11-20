@@ -3,26 +3,16 @@ package String;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class WordFlip2 {
+public class Main04_1 {
+	
 	public static ArrayList<String> solution(int n, String[] str) {
         ArrayList<String> answer = new ArrayList<String>();
-        
+
         for(String x : str){
-        	
-            char[] s = x.toCharArray();
-            int lt = 0, rt = x.length()-1;
-            
-            while(lt < rt){
-                char tmp = s[lt];
-                s[lt] = s[rt];
-                s[rt] = tmp;
-                lt ++;
-                rt--;
-            }
-            
-            String tmp = String.valueOf(s);
+            String tmp = new StringBuilder(x).reverse().toString();
             answer.add(tmp);
         }
+
         return answer;
     }
 

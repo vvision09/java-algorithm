@@ -2,7 +2,7 @@ package String;
 
 import java.util.Scanner;
 
-public class IndexOf {
+public class Main03_1 {
 	
 	public static String solution(String str){
         String answer = "";
