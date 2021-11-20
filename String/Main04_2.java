@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main04_2 {
 	public static ArrayList<String> solution(int n, String[] str) {
         ArrayList<String> answer = new ArrayList<String>();
-        
+         
         for(String x : str){
         	
             char[] s = x.toCharArray();

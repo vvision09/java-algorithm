@@ -8,7 +8,7 @@ public class Main05 {
 		String answer;
 		char[] s = str.toCharArray();
 		int lt = 0,  rt = str.length()-1;
-		
+		 
 		while(lt < rt) {
 			if(!Character.isAlphabetic(s[lt])) lt++;
 			else if(!Character.isAlphabetic(s[rt])) rt--;

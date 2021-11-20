@@ -6,7 +6,7 @@ public class Main03_1 {
 	
 	public static String solution(String str){
         String answer = "";
-        int m = Integer.MIN_VALUE;
+        int m = Integer.MIN_VALUE; 
         int pos;
         
         while((pos=str.indexOf(" ")) != -1) {

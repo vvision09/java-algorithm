@@ -9,7 +9,7 @@ public class Main02 {
 		String str = sc.next();
 		System.out.println(solution(str));
 	}
-	public static String solution(String str) {
+	public static String solution(String str) { 
 		String answer = "";
 		
 		for(char x : str.toCharArray()) {

@@ -7,7 +7,7 @@ public class Main04_1 {
 	
 	public static ArrayList<String> solution(int n, String[] str) {
         ArrayList<String> answer = new ArrayList<String>();
-
+  
         for(String x : str){
             String tmp = new StringBuilder(x).reverse().toString();
             answer.add(tmp);

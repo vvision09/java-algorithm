@@ -7,7 +7,7 @@ public class Main03_2 {
         String answer = "";
 
         //Int 범위중에 가장 작은값
-        int m = Integer.MIN_VALUE;
+        int m = Integer.MIN_VALUE; 
         String[] s = str.split(" ");
 
         for(String x:s){
