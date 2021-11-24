@@ -10,9 +10,6 @@ public class Main07_2 {
 		String tmp = new StringBuilder(str).reverse().toString();
 		
 		if(str.equals(tmp)) answer = "YES";
-
-		
-		
 		return answer;
 	}
 	
