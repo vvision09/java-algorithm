@@ -3,12 +3,9 @@ package String;
 import java.util.Scanner;
 
 /**
- * 
  * @author TaekGeun
  *	
  * 가장 짧은 문자 거리
- * 
- *
  */
 public class Main10 {
 	
